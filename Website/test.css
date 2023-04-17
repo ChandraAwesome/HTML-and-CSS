@@ -1,0 +1,65 @@
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+label{
+    width: 50%;
+}
+form{
+    width: 100%;
+}
+select{
+    padding: 10px; 
+    font-size: 16px;
+}
+body{
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.Main{
+    background-color: #bf2e5d;
+    width: 50%;
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    padding:70px;
+   
+}
+div {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  header{
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color:blue;
+  }
+  input{
+    width: 100%;
+    padding: 20px;
+  }
+  span{
+    display: flex;
+    margin-left: 0px;
+    border: 0px solid black;
+    padding: 5px;
+  }
+  .Gender{
+    width: 32%;
+  }
+  textarea{
+    width: 500px;
+    height: 200px;
+  }
+  #Submit{
+    font-size: 20px;
+  }
+  

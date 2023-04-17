@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <header>Calculator</header>
+    <div class="InputBox">
+        <input type="number" name="Input">
+    </div>
+    <span class="Number Buttons">
+        <input type="button" name="One" value="1" onclick="add()">
+        <input type="button" name="Two" value="2">
+        <input type="button" name="Three" value="3">
+        <input type="button" name="Division" value="/"><br>
+        <input type="button" name="Four" value="4">
+        <input type="button" name="Five" value="5">
+        <input type="button" name="Six" value="6">
+        <input type="button" name="Multiplication" value="*"><br>
+        <input type="button" name="Seven" value="7">
+        <input type="button" name="Eight" value="8">
+        <input type="button" name="Nine" value="9">
+        <input type="button" name="Subraction" value="-"><br>
+        <input type="button" name="Point" value=".">
+        <input type="button" name="Zero" value="0">
+        <input type="button" name="Eqauls" value="=">
+        <input type="button" name="Plus" value="+">
+    </span>
+    <!--script code for calculator-->
+    <script>
+        function add(){
+            let a =1;
+            let b=2;
+            var result = a+b;
+            document.getElementsByClassName("InputBox")[0].getElementsByTagName("Input")[0].value=result;
+        }
+        function value()
+        {
+            document.getElementsByClassName("InputBox")[0].getElementsByTagName("input")[0].value=value;
+        }
+    </script>
+</body>
+</html>

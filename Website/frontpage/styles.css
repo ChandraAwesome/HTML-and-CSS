@@ -1,0 +1,95 @@
+
+  html { font-size: small;
+    font-family: 'Fantasy';
+    background-color: black;}
+
+body { background-color: black;
+    padding: 0 20px 20px 10px; }
+
+p { text-align: center;
+    font-size: large;
+    color: blanchedalmond;
+font-family: cursive;}
+
+button {margin-top: 2px;
+        color: blue;
+    border-radius: 5px;
+border: solid brown;
+background-color: transparent;
+font-family: 'Times New Roman', Times, serif;
+text-size-adjust: 25%;
+padding: 5px 60px 5px 60px;
+font-size: medium;
+font-weight: bold;
+animation-name: but;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes but {
+    0% {border-color: red; }
+    100% {border-color: rgb(157, 255, 0);}
+    0% {border-color: red; }
+    0% {color: red; }
+    100% {color:blueviolet; }
+    0% {color:white; }
+    
+    
+    
+
+
+
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width:fit-content;
+height: 300px;
+color: antiquewhite;
+border:solid aqua;
+border-radius: 20px;
+animation-name: logo;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+
+@keyframes logo {
+    0% {border-color: aqua;}
+    25% {border-color:darkblue;}
+    50% {border-color:seashell;}
+    75% {border-color: blueviolet;}
+    0% {border-color: aqua;}
+}
+
+
+
+h1 { color: antiquewhite;
+text-align: center;
+font-size: 50px;}
+
+.middle{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+div{
+    display: block;
+    position: relative;
+    background-color: transparent;
+    animation: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes anime {
+    0% { left:200px; top:0px;}
+    50% {top:200px;bottom:0px;}
+    100%{top:0px ;right:200px;}
+    50%{ right:200px;bottom: 0px;}
+
+}

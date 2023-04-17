@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: transparent;
+    padding-top:  20%;
+    animation-name: welcome ;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@keyframes welcome{
+    from{color:white}
+    to{color:transparent;}
+}
+
+.welcome{
+    color:transparent;
+    animation-name: begin;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    text-align: center;
+    padding-top:0px;
+    font-family:monospace;
+    font-size: 25px;
+}
+
+@keyframes begin {
+    0%{color:transparent;}
+    50%{color:white;}
+   100%{color:transparent;}
+}
+
+a{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 2%;
+    color:transparent;
+    animation-name: aa;
+    animation-duration:10s;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+}
+.start{
+    text-align: center;
+}
+@keyframes aa {
+    from { color:transparent;}
+    to{color:aqua;}
+}
